@@ -1,0 +1,33 @@
+@import './base.css';
+
+body {
+  display: flex;
+  place-items: center;
+}
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+h1 {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+table {
+  width: 1000px;
+}
+
+thead th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
